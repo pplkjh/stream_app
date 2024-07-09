@@ -12,6 +12,7 @@ os.environ['OPENAI_API_KEY'] = 'sk-proj-ShI3WK6vUzqy5BumMCWlT3BlbkFJQ05GSJsje0js
 
 st.title('ChatGPT with Streamlit')
 st.write('This is a simple chatbot interface using Streamlit and OpenAI GPT-3.')
+st.write('testing date : 2024.07.09')
 
 # 객체 생성
 llm = ChatOpenAI(
