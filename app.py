@@ -39,7 +39,7 @@ if user_input:
 
 # 메시지 출력
 for message in st.session_state.messages:
-#     if message['role'] == 'user':
-#         st.write(f'**You:** {message["content"]}')
-#     else:
-#         st.write(f'**Chatbot:** {message["content"]}')
+    if message['role'] == 'user':
+        st.write(f'**You:** {message["content"]}')
+    else:
+        st.write(f'**Chatbot:** {message["content"]}')
