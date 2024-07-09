@@ -1,3 +1,5 @@
+!pip install openai
+
 import streamlit as st
 import openai
 from langchain.chat_models import ChatOpenAI
