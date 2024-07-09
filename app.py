@@ -4,8 +4,10 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 
 # OpenAI API 키 설정
-api_key = 'sk-proj-ShI3WK6vUzqy5BumMCWlT3BlbkFJQ05GSJsje0jskPMOmNYQ'
-client = openai.OpenAI(api_key = api_key)
+# api_key = 'sk-proj-ShI3WK6vUzqy5BumMCWlT3BlbkFJQ05GSJsje0jskPMOmNYQ'
+# client = openai.OpenAI(api_key = api_key)
+import os
+os.environ['OPENAI_API_KEY'] = 'sk-proj-ShI3WK6vUzqy5BumMCWlT3BlbkFJQ05GSJsje0jskPMOmNYQ'
 
 
 st.title('ChatGPT with Streamlit')
